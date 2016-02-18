@@ -1,0 +1,37 @@
+#main_container{
+	margin-top: 10px;
+	width: "99%";
+	height: 800px;
+	border: 1px solid red;
+	display: flex;
+}
+
+table {
+	width: 100%;
+}
+
+.block {
+	width: 50%;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.block2 {
+	width: 50%;
+	margin: 10px;
+	border: 1px solid black;
+}
+#b1{
+	color:red;
+}
+
+.mouseover {
+	background-color: red;
+}
+
+.mousout{
+	background-color: green;
+}
+.m1{
+background-color: green;	
+}

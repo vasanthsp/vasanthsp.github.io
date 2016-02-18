@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Vasanth Contacts Manager</title>
+	<!-- OUR CSS FILES -->
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+	<!-- CONTENT -->
+	<div id="main_container">
+		<div id="contacts_list" class="block">
+			<table>
+				<thead>
+					<th>
+						<tr>
+							<td>Name</td>
+							<td>Contact Number</td>
+						</tr>
+					</th>
+				</thead>
+				<tbody id="table_body"></tbody>
+			</table>
+		</div>
+		<div class="block">
+			<form>
+				<div>
+					<label>Name: </label>
+					<input id="name" type="text" placeholder="Name">
+				</div>
+				<div>
+					<label>Number: </label>
+					<input id="number" type="text" placeholder="0000000000">
+				</div>
+				<div>
+					<label>Age: </label>
+					<input id="age" type="text" placeholder="00">
+				</div>
+				<div>
+					<label>Search: </label>
+					<input id="search" type="text" placeholder="gtrggr">
+				</div>
+				<div>
+				
+					<input type="button" id="filter"  value="Filter" >
+				</div>
+				<div>
+					<input type="button" id ="clear" value="Clear">
+				</div>
+				<div>
+					<input type="button" id ="add" value="Add" >
+				</div>
+
+
+			</form>
+		</div>
+	</div>
+
+	<!-- END CONTENT -->
+
+
+	<!-- 3rd Party JAVASCRIPT FILES -->
+	<script type="text/javascript" src="libs/jquery.min.js"></script>
+	<!-- OUR JAVASCRIPT FILES -->
+	<script type="text/javascript" src="data.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+	margin-top: 10px;
+}
+
+.my-text-right {
+	text-align: justify;
+}
+
+.name {
+	font-size: 14px;
+	font-weight: bold;
+	color: gray;
+}
+
+.number {
+	font-size: 14px;
+	font-weight: bolder;
+	color: black;
+}
+
+.important {
+	color: red;
+	background: rgba(0,0,0,0.2);
+}
+
+.important td {
+	color: red;
+	background: rgba(0,0,0,0.2);
+}
